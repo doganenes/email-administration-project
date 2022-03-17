@@ -10,3 +10,10 @@ Application should do following:
 * Generate a random **String** password 
 * Have set methods to change the password, set the mailbox capacity, and define an alternate email address.
 * Have get methods to display the <b>name</b>, <b>email</b>, and <b> mailbox capacity</b>.	
+* <b>NOTE:</b> We used new String(password) for converting char array to String.
+
+**For example:** 
+
+char[] c1 = {'e', 'n', 'e', 's'};<br/>
+String s = new String(c1);<br/>
+System.out.println(s); // OUTPUT: enes
