@@ -12,8 +12,9 @@ Application should do following:
 * Have get methods to display the <b>name</b>, <b>email</b>, and <b> mailbox capacity</b>.	
 * <b>NOTE:</b> We used new String(password) for converting char array to String.
 
-**For example:** 
-
-char[] c1 = {'e', 'n', 'e', 's'};<br/>
-String s = new String(c1);<br/>
-System.out.println(s); // OUTPUT: enes
+  **For example:** 
+  <pre>
+  char[] c1 = {'e', 'n', 'e', 's'};<br/>
+  String s = new String(c1);<br/>
+  System.out.println(s); // OUTPUT: enes
+</pre>
