@@ -13,8 +13,8 @@ Application should do following:
 * <b>NOTE:</b> We used new String(password) for converting char array to String.
 
   **For example:** 
-  <pre>
-  char[] c1 = {'e', 'n', 'e', 's'};<br/>
-  String s = new String(c1);<br/>
-  System.out.println(s); // OUTPUT: enes
+ <pre>
+ char[] c1 = {'e', 'n', 'e', 's'};<br/>
+ String s = new String(c1);<br/>
+ System.out.println(s); // OUTPUT: enes
 </pre>
